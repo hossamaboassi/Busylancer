@@ -760,33 +760,33 @@
 							<p>Register now for early access and exclusive perks.</p>
 						</div>
 						<div class="form-wrapper m-auto">
-							<form action="#" class="mt-10">
+							<form action="#" class="mt-10" id="registerForm">
 								<div class="row">
 									<div class="col-12">
 										<div class="input-group-meta position-relative mb-25">
 											<label>Email*</label>
-											<input type="email" placeholder="Your Email Address">
+											<input type="email" name="email" placeholder="Your Email Address" required>
 										</div>
 									</div>
 									<div class="col-12">
 										<div class="input-group-meta position-relative mb-20">
 											<label>Name*</label>
-											<input type="text" placeholder="Your Full Name">
+											<input type="text" name="name" placeholder="Your Full Name" required>
 										</div>
 									</div>
                                     <div class="col-12">
 										<div class="input-group-meta position-relative mb-20">
 											<label>I am a...</label>
-											<select class="form-select">
-                                                <option selected>Choose...</option>
-                                                <option value="1">BusyLancer / Talent</option>
-                                                <option value="2">Business / Company</option>
-                                                <option value="3">Talent Agent / Intermediary</option>
+											<select class="form-select" name="user_type" required>
+                                                <option value="">Choose...</option>
+                                                <option value="busylancer">BusyLancer / Talent</option>
+                                                <option value="business">Business / Company</option>
+                                                <option value="agent">Talent Agent / Intermediary</option>
                                             </select>
 										</div>
 									</div>
 									<div class="col-12">
-										<button class="btn-eleven fw-500 tran3s d-block mt-20">Request Early Access</button>
+										<button type="submit" class="btn-eleven fw-500 tran3s d-block mt-20" data-original-text="Request Early Access">Request Early Access</button>
 									</div>
 								</div>
 							</form>
@@ -816,6 +816,7 @@
         <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
         <script src="vendor/validator.js"></script>
         <script src="js/theme.js"></script>
+        <script src="js/busylancer-app.js"></script>
         </div> <!-- /.main-page-wrapper -->
         
         <!-- START: CUSTOM SCRIPT FOR FINAL FIXES -->
