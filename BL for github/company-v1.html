@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services">
+	<meta name="description" content="BusyLancer is a beautiful website template designed for job board websites.">
+    <meta property="og:site_name" content="BusyLancer">
+    <meta property="og:url" content="https://busylancer.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BusyLancer - Responsive Job Board HTML Template">
+	<meta name='og:image' content='images/assets/ogg.png'>
+	<!-- For IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- For Resposive Device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- For Window Tab Color -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#244034">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#244034">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#244034">
+	<title>BusyLancer - Responsive Job Board HTML Template</title>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+	<!-- Main style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all">
+	<!-- responsive style sheet -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+	<!-- Custom CSS for theme overrides -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css" media="all">
+
+	<!-- Fix Internet Explorer ______________________________________-->
+	<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<div class="main-page-wrapper">
+
+		<!-- ===================================================================================================== -->
+		<!--                                       Loading Transition Section                                      -->
+		<!-- ===================================================================================================== -->
+        <!-- Preloader is disabled for now as requested. Enable by removing the 'style="display:none;"' below if needed after asset issues are resolved. -->
+		<div id="preloader" style="display:none;">
+			<div id="ctn-preloader" class="ctn-preloader">
+				<div class="icon"><img src="images/loader.svg" alt="" class="m-auto d-block" width="60"></div>
+				<div class="txt-loading">
+					<span data-text-preloader="b" class="letters-loading">
+						b
+					</span>
+					<span data-text-preloader="u" class="letters-loading">
+						u
+					</span>
+					<span data-text-preloader="s" class="letters-loading">
+						s
+					</span>
+					<span data-text-preloader="y" class="letters-loading">
+						y
+					</span>
+                    <span data-text-preloader="l" class="letters-loading">
+						l
+					</span>
+                    <span data-text-preloader="a" class="letters-loading">
+						a
+					</span>
+                    <span data-text-preloader="n" class="letters-loading">
+						n
+					</span>
+                    <span data-text-preloader="c" class="letters-loading">
+						c
+					</span>
+                    <span data-text-preloader="e" class="letters-loading">
+						e
+					</span>
+                    <span data-text-preloader="r" class="letters-loading">
+						r
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- ===================================================================================================== -->
+		<!--                                              Header Section                                           -->
+		<!-- ===================================================================================================== -->
+        <?php // include 'header_snippet.html'; ?>
+		<header class="theme-main-menu menu-overlay sticky-menu">
+			<div class="inner-content position-relative">
+				<div class="top-header">
+					<div class="d-flex align-items-center justify-content-between">
+						<div class="logo order-lg-0">
+							<a href="index.html" class="d-flex align-items-center">
+								<!-- Logo image for header, max-height adjusted for size control -->
+								<img src="images/icon/logo.png" alt="Busylancer Logo" style="max-height: 40px; width: auto;">
+							</a>
+						</div>
+						<!-- logo -->
+						<div class="right-widget ms-auto ms-lg-0 order-lg-3">
+							<ul class="d-flex align-items-center style-none">
+								<li><a href="#loginModal" class="fw-500 text-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+								<li class="d-none d-md-block ms-4"><a href="#loginModal" class="btn-five" data-bs-toggle="modal" data-bs-target="#loginModal">Register</a></li>
+							</ul>
+						</div> <!--/.right-widget-->
+						<nav class="navbar navbar-expand-lg p0 ms-3 ms-lg-0 order-lg-2">
+							<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<span></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="d-block d-lg-none"><div class="logo"><a href="index.html" class="d-block"><img src="images/icon/logo.png" alt="Busylancer Logo" style="max-height: 40px; width: auto;"></a></div></li>
+									<li class="nav-item">
+										<a class="nav-link" href="index.html" role="button">Home</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+											data-bs-auto-close="outside" aria-expanded="false">Dashboard
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="dashboard/candidate-dashboard-index.html" class="dropdown-item" target="_blank"><span>Candidate Dashboard</span></a></li>
+											<li><a href="dashboard/employer-dashboard-index.html" class="dropdown-item" target="_blank"><span>Employer Dashboard</span></a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Job
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="job-list-v1.html" class="dropdown-item"><span>Job List Style</span></a></li>
+											<li><a href="job-grid-v1.html" class="dropdown-item"><span>Job Grid Style</span></a></li>
+											<li><a href="job-details-v2.html" class="dropdown-item"><span>Job Details</span></a></li>
+										</ul>
+						            </li>
+									<li class="nav-item dropdown">
+							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Explore
+										</a>
+						                <ul class="dropdown-menu">
+							                <li class="row gx-1">
+												<div class="col-md-4">
+													<div class="menu-column">
+														<h6 class="mega-menu-title">Candidates</h6>
+														<ul class="style-none mega-dropdown-list">
+															<li><a href="candidates-v1.html" class="dropdown-item"><span>Candidates V-1</span></a></li>
+															<li><a href="candidate-profile.html" class="dropdown-item"><span>Candidate Profile</span></a></li>
+														</ul>
+													</div> <!--/.menu-column -->
+												</div>
+												<div class="col-md-4">
+													<div class="menu-column">
+														<h6 class="mega-menu-title">Company</h6>
+														<ul class="style-none mega-dropdown-list">
+															<li><a href="company-v1.html" class="dropdown-item"><span>Company V-1</span></a></li>
+															<li><a href="company-details.html" class="dropdown-item"><span>Company Details</span></a></li>
+														</ul>
+													</div> <!--/.menu-column -->
+												</div>
+												<div class="col-md-4">
+													<div class="menu-column">
+														<h6 class="mega-menu-title">Essential</h6>
+														<ul class="style-none mega-dropdown-list">
+															<li><a href="about-us.html" class="dropdown-item"><span>About Us</span></a></li>
+															<!-- Pricing not in provided files, removed for consistency -->
+															<li><a href="faq.html" class="dropdown-item"><span>Faq's</span></a></li>
+															<li><a href="signup.html" class="dropdown-item"><span>Register</span></a></li>
+															<li><a href="404.html" class="dropdown-item"><span>404 Error</span></a></li>
+														</ul>
+													</div> <!--/.menu-column -->
+												</div>
+											</li>
+						                </ul>
+						            </li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+											data-bs-auto-close="outside" aria-expanded="false">Blog
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="blog.html" class="dropdown-item"><span>Blog Standard</span></a></li>
+											<li><a href="blog-details.html" class="dropdown-item"><span>Blog Details</span></a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html" role="button">Contact</a>
+									</li>
+									<li class="d-md-none mt-5"><a href="#loginModal" class="btn-five w-100" data-bs-toggle="modal" data-bs-target="#loginModal">Register</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div> <!--/.top-header-->
+			</div> <!-- /.inner-content -->
+		</header> <!-- /.theme-main-menu -->
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                            Inner Banner Section                                       -->
+		<!-- ===================================================================================================== -->
+		<div class="inner-banner-one position-relative">
+			<div class="container">
+				<div class="position-relative">
+					<div class="row">
+						<div class="col-xl-6 m-auto text-center">
+							<div class="title-two">
+                                <h2 class="text-white">Company</h2>
+                            </div>
+							<p class="text-lg text-white mt-30 lg-mt-20">Find your desire company and get your dream job</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<img src="images/shape/shape_02.svg" alt="" class="lazy-img shapes shape_01">
+			<img src="images/shape/shape_03.svg" alt="" class="lazy-img shapes shape_02">
+		</div> <!-- /.inner-banner-one -->
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                          Company Profiles Section                                       -->
+		<!-- ===================================================================================================== -->
+		<section class="company-profiles pt-110 lg-pt-80 pb-160 xl-pb-150 lg-pb-80">
+			<div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4">
+						<button type="button" class="filter-btn w-100 pt-2 pb-2 h-auto fw-500 tran3s d-lg-none mb-40" data-bs-toggle="offcanvas" data-bs-target="#filteroffcanvas">
+							<i class="bi bi-funnel"></i>
+							Filter
+						</button>
+                        <div class="filter-area-tab offcanvas offcanvas-start" id="filteroffcanvas">
+							<button type="button" class="btn-close text-reset d-lg-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div class="main-title fw-500 text-dark">Filter By</div>
+                            <div class="light-bg border-20 ps-4 pe-4 pt-25 pb-30 mt-20">
+                                <div class="filter-block bottom-line pb-25">
+                                    <a class="filter-title fw-500 text-dark" data-bs-toggle="collapse" href="#collapseSemploye" role="button" aria-expanded="false">Search Company</a>
+                                    <div class="collapse show" id="collapseSemploye">
+                                        <div class="main-body">
+                                            <form action="#" class="input-box position-relative">
+                                                <input type="text" placeholder="Company Name">
+                                                <button><i class="bi bi-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.filter-block -->
+                                <div class="filter-block bottom-line pb-25 mt-25">
+                                    <a class="filter-title fw-500 text-dark" data-bs-toggle="collapse" href="#collapseCstatus" role="button" aria-expanded="false">Company Status</a>
+                                    <div class="collapse show" id="collapseCstatus">
+                                        <div class="main-body">
+											<ul class="style-none filter-input">
+												<li>
+													<input type="checkbox" name="CompanyStatus" value="01">
+													<label>New</label>
+												</li>
+												<li>
+													<input type="checkbox" name="CompanyStatus" value="02">
+													<label>Top Rated</label>
+												</li>
+												<li>
+													<input type="checkbox" name="CompanyStatus" value="03">
+													<label>Older</label>
+												</li>
+											</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.filter-block -->
+                                <div class="filter-block bottom-line pb-25 mt-25">
+                                    <a class="filter-title fw-500 text-dark" data-bs-toggle="collapse" href="#collapseLocation" role="button" aria-expanded="false">Location</a>
+                                    <div class="collapse show" id="collapseLocation">
+                                        <div class="main-body">
+                                            <select class="nice-select bg-white">
+                                                <option value="0">All Location</option>
+                                                <option value="1">Riyadh, Saudi Arabia</option>
+                                                <option value="2">Jeddah, Saudi Arabia</option>
+                                                <option value="3">Dammam, Saudi Arabia</option>
+                                            </select>
+                                            <div class="loccation-range-select mt-5">
+                                                <div class="d-flex align-items-center">
+                                                    <span>Radius:  </span>
+                                                    <div id="rangeValue">50</div>
+                                                    <span> KM</span>
+                                                </div>
+                                                <input type="range" id="locationRange" value="50" max="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.filter-block -->
+								
+								<div class="filter-block bottom-line pb-25 mt-25">
+                                    <a class="filter-title fw-500 text-dark collapsed" data-bs-toggle="collapse" href="#collapseCategory" role="button" aria-expanded="false">Category</a>
+                                    <div class="collapse" id="collapseCategory">
+                                        <div class="main-body">
+											<ul class="style-none filter-input">
+												<li>
+													<input type="checkbox" name="Experience" value="01">
+													<label>Event Management <span>15</span></label>
+												</li>
+												<li>
+													<input type="checkbox" name="Experience" value="02">
+													<label>Creative Services <span>8</span></label>
+												</li>
+												<li>
+													<input type="checkbox" name="Experience" value="03">
+													<label>Marketing <span>7</span></label>
+												</li>
+												<li>
+													<input type="checkbox" name="Experience" value="04">
+													<label>Photography <span>5</span></label>
+												</li>
+												<li>
+													<input type="checkbox" name="Experience" value="05">
+													<label>Videography <span>4</span></label>
+												</li>
+												<li class="hide">
+													<input type="checkbox" name="Experience" value="06">
+													<label>Public Relations <span>25</span></label>
+												</li>
+												<li class="hide">
+													<input type="checkbox" name="Experience" value="07">
+													<label>Logistics <span>1</span></label>
+												</li>
+											</ul>
+											<div class="more-btn"><i class="bi bi-plus"></i> Show More</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.filter-block -->
+                                <div class="filter-block bottom-line pb-25 mt-25">
+                                    <a class="filter-title fw-500 text-dark collapsed" data-bs-toggle="collapse" href="#collapseTeam" role="button" aria-expanded="false">Team Size</a>
+                                    <div class="collapse" id="collapseTeam">
+                                        <div class="main-body">
+											<ul class="style-none filter-input">
+												<li>
+													<input type="checkbox" name="Team" value="01">
+													<label>12+ Team Size</label>
+												</li>
+												<li>
+													<input type="checkbox" name="Team" value="02">
+													<label>7+ Team Size</label>
+												</li>
+												<li>
+													<input type="checkbox" name="Team" value="03">
+													<label>10+ Team Size</label>
+												</li>
+												<li>
+													<input type="checkbox" name="Team" value="04">
+													<label>15+ Team Size</label>
+												</li>
+												<li>
+													<input type="checkbox" name="Team" value="05">
+													<label>5+ Team Size</label>
+												</li>
+											</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.filter-block -->
+								<a href="#" class="btn-ten fw-500 text-white w-100 text-center tran3s mt-30">Apply Filter</a>
+                            </div>
+                        </div>
+                        <!-- /.filter-area-tab -->
+                    </div>
+
+
+					<div class="col-xl-9 col-lg-8">
+						<div class="ms-xxl-5 ms-xl-3">
+							<div class="upper-filter d-flex justify-content-between align-items-center mb-20">
+								<div class="total-job-found">All <span class="text-dark fw-500">2</span> companies found</div>
+								<div class="d-flex align-items-center">
+									<div class="short-filter d-flex align-items-center">
+										<div class="text-dark fw-500 me-2">Short:</div>
+										<select class="nice-select">
+											<option value="0">Latest</option>
+											<option value="1">Category</option>
+											<option value="2">Job Type</option>
+										</select>
+									</div>
+									<button class="style-changer-btn text-center rounded-circle tran3s ms-2 list-btn active" title="Active List"><i class="bi bi-list"></i></button>
+									<button class="style-changer-btn text-center rounded-circle tran3s ms-2 grid-btn" title="Active Grid"><i class="bi bi-grid"></i></button>
+								</div>
+							</div>
+							<!-- /.upper-filter -->
+
+                            <div class="accordion-box grid-style show">
+								<div class="row">
+                                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 d-flex">
+                                        <div class="company-grid-layout favourite mb-30">
+                                            <a href="company-details.html" class="company-logo me-auto ms-auto rounded-circle"><img src="images/logo/spectra_logo.png" alt="Spectra Events & Exhibitions Logo" class="lazy-img rounded-circle"></a>
+                                            <h5 class="text-center"><a href="company-details.html" class="company-name tran3s">Spectra Events & Exhibitions</a></h5>
+                                            <p class="text-center mb-auto">Riyadh, Saudi Arabia</p>
+                                            <div class="bottom-line d-flex">
+                                                <a href="company-details.html">8 Vacancy</a>
+                                                <a href="company-details.html"><i class="bi bi-bookmark-dash"></i> Save</a>
+                                            </div>
+                                        </div>
+                                        <!-- /.company-grid-layout -->
+                                    </div>
+                                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 d-flex">
+                                        <div class="company-grid-layout mb-30">
+                                            <a href="company-details.html" class="company-logo me-auto ms-auto rounded-circle"><img src="images/logo/pixelcraft_logo.png" alt="PixelCraft Studios Logo" class="lazy-img rounded-circle"></a>
+                                            <h5 class="text-center"><a href="company-details.html" class="company-name tran3s">PixelCraft Studios</a></h5>
+                                            <p class="text-center mb-auto">Jeddah, Saudi Arabia</p>
+                                            <div class="bottom-line d-flex">
+                                                <a href="company-details.html">5 Vacancy</a>
+                                                <a href="company-details.html"><i class="bi bi-bookmark-dash"></i> Save</a>
+                                            </div>
+                                        </div>
+                                        <!-- /.company-grid-layout -->
+                                    </div>
+                                </div>
+							</div>
+							<!-- /.accordion-box -->
+
+
+							<div class="accordion-box list-style">
+								<div class="company-list-layout favourite mb-20">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-xl-5">
+                                            <div class="d-flex align-items-xl-center">
+                                                <a href="company-details.html" class="company-logo rounded-circle"><img src="images/logo/spectra_logo.png" alt="Spectra Events & Exhibitions Logo" class="lazy-img rounded-circle"></a>
+                                                <div class="company-data">
+                                                    <h5 class="m0"><a href="company-details.html" class="company-name tran3s">Spectra Events & Exhibitions</a></h5>
+                                                    <p>Riyadh, Saudi Arabia</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-md-8">
+                                            <div class="d-flex align-items-center ps-xxl-5 lg-mt-20">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_42.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_43.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_44.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <div class="team-text">
+                                                        <span class="text-md fw-500 text-dark d-block">18+ </span> Team Size
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-md-4">
+											<div class="btn-group d-flex align-items-center justify-content-md-end lg-mt-20">
+                                                <a href="company-details.html" class="open-job-btn text-center fw-500 tran3s me-2">8 open jobs</a>
+												<a href="company-details.html" class="save-btn text-center rounded-circle tran3s" title="Save Job"><i class="bi bi-bookmark-dash"></i></a>
+											</div>
+										</div>
+                                    </div>
+                                </div> 
+                                <!-- /.company-list-layout -->
+                                <div class="company-list-layout mb-20">
+                                    <div class="row justify-content-between align-items-center">
+                                        <div class="col-xl-5">
+                                            <div class="d-flex align-items-xl-center">
+                                                <a href="company-details.html" class="company-logo rounded-circle"><img src="images/logo/pixelcraft_logo.png" alt="PixelCraft Studios Logo" class="lazy-img rounded-circle"></a>
+                                                <div class="company-data">
+                                                    <h5 class="m0"><a href="company-details.html" class="company-name tran3s">PixelCraft Studios</a></h5>
+                                                    <p>Jeddah, Saudi Arabia</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-md-8">
+                                            <div class="d-flex align-items-center ps-xxl-5 lg-mt-20">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_42.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_43.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <img src="images/lazy.svg" data-src="images/assets/img_44.png" alt="" class="lazy-img rounded-circle team-img">
+                                                    <div class="team-text">
+                                                        <span class="text-md fw-500 text-dark d-block">10+ </span> Team Size
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-md-4">
+											<div class="btn-group d-flex align-items-center justify-content-md-end lg-mt-20">
+                                                <a href="company-details.html" class="open-job-btn text-center fw-500 tran3s me-2">5 open jobs</a>
+												<a href="company-details.html" class="save-btn text-center rounded-circle tran3s" title="Save Job"><i class="bi bi-bookmark-dash"></i></a>
+											</div>
+										</div>
+                                    </div>
+                                </div> 
+                                <!-- /.company-list-layout -->
+							</div>
+							<!-- /.accordion-box -->
+
+
+							<div class="pt-50 lg-pt-20 d-sm-flex align-items-center justify-content-between">
+								<p class="m0 order-sm-last text-center text-sm-start xs-pb-20">Showing <span class="text-dark fw-500">1 to 2</span> of <span class="text-dark fw-500">2</span></p>
+								<ul class="pagination-one d-flex align-items-center justify-content-center justify-content-sm-start style-none">
+									<li class="active"><a href="#">1</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /.col- -->
+                </div>
+            </div>
+		</section>
+		<!-- ./company-profiles -->
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                            Job Portal Intro Section                                     -->
+		<!-- ===================================================================================================== -->
+		<section class="job-portal-intro">
+			<div class="container">
+				<div class="wrapper bottom-border top-border pt-65 md-pt-50 pb-65 md-pb-50">
+					<div class="row align-items-center">
+						<div class="col-lg-7">
+							<div class="text-center text-lg-start">
+								<h2>Most complete job portal.</h2>
+								<p class="text-md m0 md-pb-20">Signup and start find your job or talents.</p>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<ul class="btn-group style-none d-flex flex-wrap justify-content-center justify-content-lg-end">
+								<li class="me-2"><a href="job-list-v1.html" class="btn-three">Looking for job?</a></li>
+								<li class="ms-2"><a href="signup.html" class="btn-four">Post a job</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.job-portal-intro -->
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                                Footer Section                                         -->
+		<!-- ===================================================================================================== -->
+        <?php // include 'footer_snippet.html'; ?>
+		<div class="footer-one">
+			<div class="container">
+				<div class="inner-wrapper">
+					<div class="row justify-content-between">
+						<div class="col-xl-4 col-lg-3 footer-intro mb-15">
+							<div class="logo mb-25">
+								<a href="index.html" class="d-flex align-items-center">
+									<img src="images/icon/logo.png" alt="BusyLancer Logo">
+								</a>
+							</div>
+							<!-- logo -->
+							<a href="mailto:hossam@aboassi.com" class="email fw-500">info@busy-lancer.com</a> <br>
+                            <a href="tel:+966511345304" class="email fw-500">+966 51 134 5304</a>
+                            <p class="mt-10">Riyadh, KSA</p>
+						</div>
+						<div class="col-lg-2 col-sm-4 mb-20">
+							<h5 class="footer-title">Links</h5>
+							<ul class="footer-nav-link style-none">
+								<li><a href="about-us.html">About us</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="faq.html">FAQ’s</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-sm-4 mb-20">
+							<h5 class="footer-title">Legal</h5>
+							<ul class="footer-nav-link style-none">
+								<li><a href="contact.html">Terms of use</a></li>
+								<li><a href="contact.html">Terms & conditions</a></li>
+								<li><a href="contact.html">Privacy</a></li>
+								<li><a href="contact.html">Cookie policy</a></li>
+							</ul>
+						</div>
+						<div class="col-xl-2 col-lg-3 col-sm-4 mb-20">
+							<h5 class="footer-title">Contact</h5>
+							<p class="m0">Hossam AboAssi, Founder</p>
+						</div>
+					</div>
+				</div> <!-- /.inner-wrapper -->
+			</div>
+			<div class="bottom-footer">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-4 order-lg-3 mb-15">
+							<ul class="style-none d-flex order-lg-last justify-content-center justify-content-lg-end social-icon">
+								<li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+								<li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+								<li><a href="#"><i class="bi bi-instagram"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 order-lg-1 mb-15">
+							<ul class="d-flex style-none bottom-nav justify-content-center justify-content-lg-start">
+								<li><a href="contact.html">Privacy & Terms.</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 order-lg-2">
+							<p class="text-center mb-15">Copyright @2025 Busylancer inc.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /.footer-one -->
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                             Login Modal Section                                         -->
+		<!-- ===================================================================================================== -->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+                <div class="container">
+                    <div class="user-data-form modal-content">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						<div class="text-center">
+							<h2>Welcome to the Pilot Program!</h2>
+							<p>Register now for early access and exclusive perks.</p>
+						</div>
+						<div class="form-wrapper m-auto">
+							<form action="#" class="mt-10">
+								<div class="row">
+									<div class="col-12">
+										<div class="input-group-meta position-relative mb-25">
+											<label>Email*</label>
+											<input type="email" placeholder="Your Email Address">
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="input-group-meta position-relative mb-20">
+											<label>Name*</label>
+											<input type="text" placeholder="Your Full Name">
+										</div>
+									</div>
+                                    <div class="col-12">
+										<div class="input-group-meta position-relative mb-20">
+											<label>I am a...</label>
+											<select class="form-select">
+                                                <option selected>Choose...</option>
+                                                <option value="1">BusyLancer / Talent</option>
+                                                <option value="2">Business / Company</option>
+                                                <option value="3">Talent Agent / Intermediary</option>
+                                            </select>
+										</div>
+									</div>
+									<div class="col-12">
+										<button class="btn-eleven fw-500 tran3s d-block mt-20">Request Early Access</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- /.form-wrapper -->
+                    </div>
+                    <!-- /.user-data-form -->
+                </div>
+            </div>
+        </div>
+
+
+		<button class="scroll-top">
+			<!-- Icon is added via CSS to ensure it always appears -->
+		</button>
+
+
+		<!-- ===================================================================================================== -->
+		<!--                                        Optional JavaScript Files                                        -->
+		<!-- ===================================================================================================== -->
+        <script src="vendor/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/wow/wow.min.js"></script>
+        <script src="vendor/slick/slick.min.js"></script>
+        <script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script src="vendor/jquery.lazy.min.js"></script>
+        <script src="vendor/jquery.counterup.min.js"></script>
+        <script src="vendor/jquery.waypoints.min.js"></script>
+        <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+        <script src="vendor/validator.js"></script>
+        <script src="js/theme.js"></script>
+        </div> <!-- /.main-page-wrapper -->
+        
+        <!-- START: CUSTOM SCRIPT FOR FINAL FIXES (This script should be at the very bottom of the body tag) -->
+        <script>
+        $(document).ready(function() {
+            // 1. Fix for the Scroll-to-Top Button Functionality
+            if ($('.scroll-top').length) {
+                $('.scroll-top').on('click', function() {
+                    $('html, body').animate({
+                        scrollTop: 0
+                    }, 100); // The 100 is speed in milliseconds
+                    return false;
+                });
+            }
+
+            // 2. Fix for the Under Construction Banner covering the menu
+            // This assumes the banner is immediately before the header and has class .alert-warning
+            var banner = $('.alert-warning');
+            var header = $('.theme-main-menu');
+            if (banner.length && header.length) {
+                var adjustHeaderPosition = function() {
+                    var bannerHeight = banner.outerHeight();
+                    header.css('margin-top', bannerHeight + 'px');
+                };
+
+                // Adjust on load
+                adjustHeaderPosition();
+
+                // Adjust on window resize
+                $(window).on('resize', adjustHeaderPosition);
+            }
+        });
+        </script>
+        <!-- END: CUSTOM SCRIPT FOR FINAL FIXES -->
+           
+</body>
+</html>

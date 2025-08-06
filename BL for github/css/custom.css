@@ -1,0 +1,31 @@
+/* BusyLancer Custom Theme Overrides */
+
+/* --- Button Contrast Fix --- */
+.btn-five, .btn-seven {
+    color: #282B2D !important; /* A dark color for the text */
+    background-color: #D6EEF5;
+}
+
+.btn-five:hover, .btn-seven:hover {
+    color: #fff !important; /* Make text white on hover */
+    background-color: #355A6B; /* A darker background for hover */
+}
+
+/* --- RTL (Right-to-Left) Specific Styles for Arabic Page --- */
+[dir="rtl"] .list-style-one li {
+    padding-left: 0;
+    padding-right: 35px; /* Swaps padding from left to right */
+}
+
+[dir="rtl"] .list-style-one li:before {
+    left: auto;
+    right: 0; /* Moves the checkmark icon to the right */
+}
+
+[dir="rtl"] .text-lg-start {
+    text-align: right !important;
+}
+
+[dir="rtl"] .justify-content-lg-end {
+    justify-content: flex-start !important;
+}
